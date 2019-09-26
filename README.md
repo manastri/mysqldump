@@ -19,8 +19,8 @@ Notes:
 
 2. Create secret, configmap and job(s)
 
-             kubectl create -f k8s/mysqldump/mysqldump.configmap.yaml
-             kubectl create -f k8s/mysqldump/mysqldump.secret.yaml
-             kubectl create -f k8s/mysqldump/mysqldump.scheduledjob.all.yaml
+             kubectl create -f mysqldump/mysqldump.configmap.yaml
+             kubectl create -f mysqldump/mysqldump.secret.yaml
+             kubectl create -f mysqldump/mysqldump.scheduledjob.all.yaml
 
 references : https://github.com/camilb/kube-mysqldump-cron
